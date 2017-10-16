@@ -6,5 +6,5 @@ var Grub = function() {
 
 
 Grub.prototype.eat = function(){
-
+ return "the " + this.color + " bee eats " + this.food;
 };
